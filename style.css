@@ -1,25 +1,30 @@
 body {
-    h { font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;} /* Definindo fonte dos cabeçalhos*/
-    p {font-family: Arial, Helvetica, sans-serif;} /* Definindo fonte do texto*/
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Cor de fundo clara */
     margin: 0;
     padding: 0;
   }
   
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Fonte para títulos */
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte para parágrafos */
+  }
+  
   header nav ul {
-    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
-    display: flex;
-    background: #214774;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Fonte do menu */
+    display: flex; /* Menu em linha */
+    background: #214774; /* Cor do menu */
     padding: 10px;
-    list-style: none;
+    list-style: none; /* Remove marcadores da lista */
   }
   
   header nav ul li {
-    margin-right: 20px;
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
   }
   
   header nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Cor do texto do menu */
+    text-decoration: none; /* Remove sublinhado */
   }
-  
