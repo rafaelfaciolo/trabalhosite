@@ -1,0 +1,25 @@
+body {
+    h { font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;} /* Definindo fonte dos cabeçalhos*/
+    p {font-family: Arial, Helvetica, sans-serif;} /* Definindo fonte do texto*/
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    background: #214774;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
